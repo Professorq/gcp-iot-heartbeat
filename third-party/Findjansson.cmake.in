@@ -1,0 +1,11 @@
+set(jansson_FOUND true)
+
+set(jansson_INCLUDE_DIRS
+  ${jansson_BINARY_DIR}/include
+  )
+
+set(jansson_LIBRARY
+  ${jansson_BINARY_DIR}/lib/libjansson.a
+  )
+
+add_library(jansson::jansson ALIAS jansson)

@@ -1,0 +1,3 @@
+[submodule "third-party/DownloadProject"]
+	path = third-party/DownloadProject
+	url = git@github.com:Crascit/DownloadProject.git
